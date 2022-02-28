@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:id="@+id/circularImageView"
+        android:src="@drawable/circle"
+        android:layout_height="90dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center|left"
+        android:text="test"
+        android:layout_marginLeft="15dp"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:id="@+id/contactsTextView"
+        android:layout_height="wrap_content"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
