@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:background="#F9F9F9"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Cancel"
+            android:textColor="#FF8709"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:id="@+id/cancelButton"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/saveButton"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="Save"
+            android:textColor="#FF8709"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#CDCDCD"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="2"
+        android:scaleType="fitCenter"
+        android:background="#ffffff"
+        android:src="@drawable/circle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Information"
+        android:paddingLeft="12dp"
+        android:paddingTop="1.5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingBottom="1.5dp"
+        android:background="#F9F9F9"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="First Name"
+                android:layout_gravity="left"
+                android:layout_weight="3"
+
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:padding="12dp"
+                android:elevation="3dp"
+                android:id="@+id/firstNameEditText"
+                android:layout_weight="7"
+                android:layout_marginRight="12dp"
+                android:textSize="16sp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/oval_button_border"
+                android:text="Phoebe"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="24dp"
+        android:alpha=".5"
+        android:background="#808080"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Last Name"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:padding="12dp"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:layout_weight="7"
+            android:layout_marginRight="12dp"
+            android:textSize="16sp"
+            android:id="@+id/lastNameEditText"
+            android:elevation="3dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/oval_button_border"
+            android:text="Monroe"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub Information"
+        android:paddingLeft="12dp"
+        android:paddingTop="1.5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="1.5dp"
+        android:background="#F9F9F9"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:weightSum="10"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Email"
+                android:layout_weight="3"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:padding="12dp"
+                android:elevation="3dp"
+                android:layout_weight="7"
+                android:id="@+id/emailEditText"
+                android:layout_marginRight="12dp"
+                android:textSize="16sp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/oval_button_border"
+                android:text="Phoebe"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="24dp"
+        android:alpha=".5"
+        android:background="#808080"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Phone"
+            android:layout_gravity="left"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:padding="12dp"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginRight="12dp"
+            android:textSize="16sp"
+            android:layout_weight="7"
+            android:id="@+id/phoneNumberEditText"
+            android:elevation="3dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/oval_button_border"
+            android:text="Monroe"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:layout_weight="4"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
